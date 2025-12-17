@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Waiting Room - Inner Engineering Webinar</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <main class="waiting-room">
+        <div class="container">
+            <div class="webinar-layout">
+                <div class="video-frame">
+                    <div class="video-placeholder">
+                        <p>Webinar Video</p>
+                    </div>
+                </div>
+                <div class="milestones-box">
+                    <div class="milestones-header" id="milestones-toggle">
+                        <h3>Webinar Sections</h3>
+                        <span class="toggle-icon">▼</span>
+                    </div>
+                    <ul class="milestones-list" id="milestones-list">
+                        <li class="milestone-item watched" data-time="0">
+                            <span class="milestone-time">00:00</span>
+                            <span class="milestone-title">Introduction</span>
+                            <span class="watched-icon">✓</span>
+                        </li>
+                        <li class="milestone-item watched" data-time="300">
+                            <span class="milestone-time">05:00</span>
+                            <span class="milestone-title">Overview of Inner Engineering</span>
+                            <span class="watched-icon">✓</span>
+                        </li>
+                        <li class="milestone-item" data-time="600">
+                            <span class="milestone-time">10:00</span>
+                            <span class="milestone-title">Key Practices</span>
+                        </li>
+                        <li class="milestone-item" data-time="900">
+                            <span class="milestone-time">15:00</span>
+                            <span class="milestone-title">Benefits and Outcomes</span>
+                        </li>
+                        <li class="milestone-item" data-time="1200">
+                            <span class="milestone-time">20:00</span>
+                            <span class="milestone-title">Q&A Session</span>
+                        </li>
+                        <li class="milestone-item" data-time="1500">
+                            <span class="milestone-time">25:00</span>
+                            <span class="milestone-title">Closing Remarks</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="webinar-footer-section">
+                    <div class="reference-links">
+                        <h3>Reference Links</h3>
+                        <ul class="links-list">
+                            <li><a href="#" target="_blank">Inner Engineering Program Details</a></li>
+                            <li><a href="#" target="_blank">Sadhguru's Teachings</a></li>
+                            <li><a href="#" target="_blank">Isha Foundation Website</a></li>
+                            <li><a href="#" target="_blank">Program Registration</a></li>
+                        </ul>
+                    </div>
+                    <div class="questions-section">
+                        <h3>Ask Your Questions</h3>
+                        <form class="questions-form">
+                            <textarea id="question-input" name="question" placeholder="Type your question here..." rows="4" required></textarea>
+                            <button type="submit" class="question-submit-btn">Submit Question</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <section class="upcoming-programs-section">
+                <h2 class="section-title">Upcoming Programs</h2>
+                <div class="programs-grid">
+                    <div class="program-card">
+                        <div class="program-thumbnail">
+                            <img src="https://apac.sadhguru.org/assets/img/landing/section-3-ppt-steps.png" alt="Inner Engineering Online">
+                            <span class="program-badge online">Online</span>
+                        </div>
+                        <div class="program-info">
+                            <h3 class="program-name">Inner Engineering Online</h3>
+                            <div class="program-details">
+                                <p class="program-date">
+                                    <span class="detail-icon">📅</span>
+                                    <span>Mar 15 - Mar 17, 2025</span>
+                                </p>
+                                <p class="program-location">
+                                    <span class="detail-icon">📍</span>
+                                    <span>Online</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="program-card">
+                        <div class="program-thumbnail">
+                            <img src="https://apac.sadhguru.org/assets/img/landing/section-3-ppt-steps.png" alt="Inner Engineering Completion">
+                            <span class="program-badge offline">Offline</span>
+                        </div>
+                        <div class="program-info">
+                            <h3 class="program-name">Inner Engineering Completion</h3>
+                            <div class="program-details">
+                                <p class="program-date">
+                                    <span class="detail-icon">📅</span>
+                                    <span>Mar 20 - Mar 22, 2025</span>
+                                </p>
+                                <p class="program-location">
+                                    <span class="detail-icon">📍</span>
+                                    <span>Isha Yoga Center, Coimbatore</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="program-card">
+                        <div class="program-thumbnail">
+                            <img src="https://apac.sadhguru.org/assets/img/landing/section-3-ppt-steps.png" alt="Bhava Spandana">
+                            <span class="program-badge offline">Offline</span>
+                        </div>
+                        <div class="program-info">
+                            <h3 class="program-name">Bhava Spandana</h3>
+                            <div class="program-details">
+                                <p class="program-date">
+                                    <span class="detail-icon">📅</span>
+                                    <span>Apr 5 - Apr 7, 2025</span>
+                                </p>
+                                <p class="program-location">
+                                    <span class="detail-icon">📍</span>
+                                    <span>Isha Yoga Center, Coimbatore</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="program-card">
+                        <div class="program-thumbnail">
+                            <img src="https://apac.sadhguru.org/assets/img/landing/section-3-ppt-steps.png" alt="Inner Engineering Online">
+                            <span class="program-badge online">Online</span>
+                        </div>
+                        <div class="program-info">
+                            <h3 class="program-name">Inner Engineering Online</h3>
+                            <div class="program-details">
+                                <p class="program-date">
+                                    <span class="detail-icon">📅</span>
+                                    <span>Apr 12 - Apr 14, 2025</span>
+                                </p>
+                                <p class="program-location">
+                                    <span class="detail-icon">📍</span>
+                                    <span>Online</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <img src="https://apac.sadhguru.org/assets/img/landing/footer-banner.jpg" alt="Footer Banner" class="footer-banner">
+    </footer>
+</body>
+</html>
+

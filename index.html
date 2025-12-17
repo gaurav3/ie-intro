@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Program Registration</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="hero-wrapper">
+                    <div class="hero-image">
+                        <!-- Image placeholder -->
+                    </div>
+                    <div class="hero-content">
+                        <h1>Engineer yourself for success</h1>
+                        <p class="subtitle">A short line about how Inner Engineering can help you in your journey to success</p>
+                        <div class="registration-form" id="registration-form">
+                            <h2>Join the Free Webinar</h2>
+                            <form id="registration-form-element">
+                                <div class="form-row">
+                                    <div class="form-group">
+                                        <label for="name">Full Name</label>
+                                        <input type="text" id="name" name="name" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="email">Email Address</label>
+                                        <input type="email" id="email" name="email" required>
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="form-group">
+                                        <label for="country">Country</label>
+                                        <select id="country" name="country" required>
+                                            <option value="my" selected>Malaysia</option>
+                                            <option value="us">United States</option>
+                                            <option value="uk">United Kingdom</option>
+                                            <option value="in">India</option>
+                                            <option value="ca">Canada</option>
+                                            <option value="au">Australia</option>
+                                            <option value="sg">Singapore</option>
+                                            <option value="id">Indonesia</option>
+                                            <option value="th">Thailand</option>
+                                            <option value="ph">Philippines</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="phone">Phone Number</label>
+                                        <div class="phone-input-wrapper">
+                                            <select id="country-code" name="country-code" class="country-code-select">
+                                                <option value="+60">+60</option>
+                                                <option value="+1">+1</option>
+                                                <option value="+44">+44</option>
+                                                <option value="+91">+91</option>
+                                                <option value="+61">+61</option>
+                                                <option value="+65">+65</option>
+                                                <option value="+62">+62</option>
+                                                <option value="+66">+66</option>
+                                                <option value="+63">+63</option>
+                                            </select>
+                                            <input type="tel" id="phone" name="phone" class="phone-input">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group checkbox-group">
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" id="consent" name="consent" required>
+                                        <span>I agree to receive the webinar link and program details on my email or whatsapp as required</span>
+                                    </label>
+                                </div>
+                                <button type="submit" class="submit-btn">Join the Free Webinar</button>
+                            </form>
+                            <div class="countdown-message">
+                                Next webinar starting in <span id="countdown-timer">05:00</span> minutes
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="program-content">
+            <div class="container">
+                <div class="program-content-wrapper">
+                    <div class="description">
+                        <h2>About the Program</h2>
+                        
+                        <p> Inner Engineering, designed by <span class="font-bold">Sadhguru</span>, offers tools to transform your body, mind, and emotions. It helps you experience greater balance, clarity, and inner peace in everyday life. </p>
+                        <p> Join our <span class="font-bold">free Introduction to Inner Engineering</span>, session to learn more about the program, its formats, and life-transforming benefits. </p>
+                        <p> An Isha instructor will guide you through key aspects of the program, followed by a Q&amp;A </p>
+                    </div>
+                    <div class="program-image">
+                        <img src="https://apac.sadhguru.org/assets/img/landing/section-3-ppt-steps.png" alt="Inner Engineering Program Steps">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonials-section" id="MyInnerEngineeringExperience">
+            <div class="container">
+                <h2>#MyInnerEngineeringExperience</h2>
+                <div class="testimonials-grid">
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <p class="testimonial-text">"Inner Engineering has been a transformative journey. The practices have brought immense clarity and peace into my daily life."</p>
+                            <p class="testimonial-author">– Sarah Chen, Singapore</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <p class="testimonial-text">"The program has helped me manage stress better and find balance in my professional and personal life. Highly recommended!"</p>
+                            <p class="testimonial-author">– Rajesh Kumar, Malaysia</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <p class="testimonial-text">"A life-changing experience. The tools I learned have become an integral part of my daily routine."</p>
+                            <p class="testimonial-author">– Emily Johnson, Australia</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonials-cta">
+                    <a href="#registration-form" class="cta-button">Join the Free Webinar</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <img src="https://apac.sadhguru.org/assets/img/landing/footer-banner.jpg" alt="Footer Banner" class="footer-banner">
+    </footer>
+</body>
+</html>
+
